@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background: #ecf0f1;
+      display: flex;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .resume {
+      display: flex;
+      width: 900px;
+      background: #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* Left Side */
+    .left {
+      width: 30%;
+      background: #2c3e50;
+      color: #fff;
+      padding: 30px 20px;
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin: 0 auto;
+      display: block;
+      border: 4px solid #ffcc00;
+    }
+
+    .name {
+      text-align: center;
+      margin: 15px 0;
+      font-size: 22px;
+      font-weight: bold;
+      color: #f39c12;
+    }
+
+    .role {
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+
+    .section-title {
+      font-size: 16px;
+      margin: 20px 0 10px;
+      color: #f39c12;
+    }
+
+    .contact p, .skills p, .interests p {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    .skills-bar {
+      background: #444;
+      height: 6px;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-bottom: 12px;
+    }
+
+    .skills-bar span {
+      display: block;
+      height: 6px;
+      background: #ffcc00;
+    }
+
+    /* Right Side */
+    .right {
+      width: 70%;
+      padding: 30px 40px;
+      color: #333;
+    }
+
+    .right h2 {
+      font-size: 18px;
+      color: #222c3c;
+      margin-bottom: 10px;
+      position: relative;
+    }
+
+    .right h2::before {
+      content: "●";
+      color: #ffcc00;
+      margin-right: 10px;
+    }
+
+    .right p {
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .job {
+      margin-bottom: 20px;
+    }
+
+    .job h3 {
+      font-size: 15px;
+      color: #000;
+    }
+
+    .job span {
+      font-size: 13px;
+      color: #777;
+    }
+
+    .portfolio p {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <!-- Left Side -->
+    <div class="left">
+      <img src="C:\Users\venkat\OneDrive\Pictures\Documents\html\Resume\venkat - Copy.jpg" alt="Profile" class="profile-pic">
+      <h1 class="name">VENKATESWRALU VANKARABOINA</h1>
+      <p class="role">GRAPHIC DESIGNER</p>
+
+      <div class="contact">
+        <h3 class="section-title">Contact</h3>
+        <p>Email: vsiva8483@email.com</p>
+        <p>Phone: +91 9398043713</p>
+        <p>Website: venkatasiva.com</p>
+      </div>
+
+      <div class="skills">
+        <h3 class="section-title">Skills</h3>
+        <p>Photoshop</p>
+        <div class="skills-bar"><span style="width: 90%"></span></div>
+        <p>Illustrator</p>
+        <div class="skills-bar"><span style="width: 80%"></span></div>
+        <p>Web Design</p>
+        <div class="skills-bar"><span style="width: 70%"></span></div>
+      </div>
+
+      <div class="interests">
+        <h3 class="section-title">Interests</h3>
+        <p>Minimalist Art</p>
+        <p>Urban Photography</p>
+        <p>Art Installations</p>
+      </div>
+    </div>
+
+    <!-- Right Side -->
+    <div class="right">
+      <h2>Profile</h2>
+      <p>Creative graphic designer with 5+ years experience in impactful print and digital visuals. Skilled in brand identity, social media, and packaging design, with Adobe Creative Suite and Figma expertise. Focused on delivering fresh, aesthetic solutions.</p>
+
+      <h2>Experience</h2>
+      <div class="job">
+        <h3>Senior Graphic Designer <span>| Brightline Agency | New York, NY | June 2020 – Present</span></h3>
+        <p>Boosted engagement by 30% through brand campaigns and created identity packages for social media and print.</p>
+      </div>
+      <div class="job">
+        <h3>Graphic Designer <span>| Blue Horizon Media | Brooklyn, NY | March 2017 – May 2020</span></h3>
+        <p>Boosted retention by 25% and developed eco-friendly packaging while mentoring designers.</p>
+      </div>
+
+      <h2>Education</h2>
+      <p>Bachelor of Fine Arts in Graphic Design<br>Parsons School of Design | New York, NY<br>Graduated: 2017</p>
+
+      <h2>Portfolio</h2>
+      <div class="portfolio">
+        <p><b>Social Media Campaign</b> for Eco Wave Brand: Transformed their social media presence with cohesive visuals and engaging graphics.</p>
+        <p><b>Event Branding</b> for the annual NYC Art Expo: Developed event branding from logo to banners, enhancing attendee experience.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
